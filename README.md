@@ -2,10 +2,13 @@
 
 For installing packages directly from a remote repository like github, npm by
 default will run a `build` script. The syntax for adding a dependency this way:
- * npm install <git remote url>
+
+```zsh
+npm install <git remote url>
+```
 
 In the package.json afterwards, this shows something like:
-```
+```json
   "dependencies": {
     "react-i18next": "github:Ashpabb/react-i18next"
   }
